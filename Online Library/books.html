@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>XmlhttpRequest</title>  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+     <body style="color: blue;font-family: cursive">
+        <script src="js/books.js"></script>
+        <center>     
+            <h1>Online Library</h1>
+            <br>
+            <form>
+                <div class="form-group">  
+                  <input type="text" class="form-control" placeholder="Type the text here.." id="text" style="margin-left:5cm;">
+                </div>
+            </form>
+                    
+            <br>
+            <button onclick="send()">Search</button>
+            <div style="width: 100%;text-align:left">
+                
+                <div style="float:left; width:50%;margin-left:0.5cm;color:orangered">
+                    <p id="id1"></p>   
+                </div>
+                <div style="float:right;margin-right:0.5cm;color:deeppink">
+                    <h3 id="title"></h3>
+                    <img id="imgName"/>   
+                    <h6 id="subtitle"></h6>
+                    <h6 id="authors"></h6>
+                    <h6 id="publisher"></h6>
+                    <h6 id="infoLink"></h6>
+                    <h6 id="previewLink"></h6>
+                    <h6 id="webReaderLink"></h6>     
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
+
